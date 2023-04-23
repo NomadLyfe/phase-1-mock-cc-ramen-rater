@@ -89,6 +89,16 @@ input[type="submit"] {
   transition: all 0.3s;
 }
 
+button {
+  color: white;
+  border: 1px solid white;
+  background-color: black;
+  cursor: pointer;
+  transition: all 0.3s;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
 input[type="submit"]:active {
   background-color: gray;
 }
@@ -100,3 +110,7 @@ form h4 {
   color: white;
   background-color: black;
 }
+
+#buttons {
+  display: inline-block;
+  }
